@@ -6,7 +6,7 @@ use std::fmt::Debug;
 //use actix_web::error::ErrorInternalServerError;
 
 const SERVICE_HOST: &str = "127.0.0.1";
-const SERVICE_PORT: u16 = 8000;
+const SERVICE_PORT: u16 = 8088;
 const SERVICE_URL: &str = "tcp://127.0.0.1:10234"; // uplink
 
 #[derive(Debug, Serialize, Deserialize)]
